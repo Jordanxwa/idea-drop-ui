@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { QueryClient, queryOptions, useSuspenseQuery } from '@tanstack/react-query'
+import { queryOptions, useSuspenseQuery } from '@tanstack/react-query'
 import { fetchIdeas } from '@/api/ideas'
 import IdeaCard from '@/components/IdeaCard'
 

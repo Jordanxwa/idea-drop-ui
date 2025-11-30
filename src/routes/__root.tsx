@@ -1,7 +1,6 @@
 import {HeadContent, Outlet, createRootRouteWithContext } from '@tanstack/react-router'
 import { Link } from 'lucide-react'
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
-import { TanStackDevtools } from '@tanstack/react-devtools'
 import { QueryClient } from '@tanstack/react-query'
 import Header from '@/components/Header'
 

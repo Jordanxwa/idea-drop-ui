@@ -1,6 +1,5 @@
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
 import { useState } from 'react'
-import type { Idea } from '@/types'
 import { useMutation } from '@tanstack/react-query'
 import { createIdea } from '@/api/ideas'
 
